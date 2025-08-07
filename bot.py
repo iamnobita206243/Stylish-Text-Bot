@@ -1,3 +1,6 @@
+import time
+time.sleep(2)
+
 import pyrogram
 import logging
 import os
@@ -20,6 +23,6 @@ if __name__ == "__main__":
         api_hash=Config.API_HASH,
         plugins=plugins,
         workers=100,
-        sleep_threshold=60   # ✅ बस यही रखना है
+        sleep_threshold=60
     )
     app.run()
