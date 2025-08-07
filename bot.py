@@ -20,8 +20,6 @@ if __name__ == "__main__":
         api_hash=Config.API_HASH,
         plugins=plugins,
         workers=100,
-        sleep_threshold=60,
-        workdir="./",          # ✅ Added
-        in_memory=True         # ✅ Added
+        sleep_threshold=60   # ✅ बस यही रखना है
     )
     app.run()
