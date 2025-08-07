@@ -6,7 +6,7 @@ from config import Config
 from pyrogram import Client
 
 # Wait to sync time with Telegram servers
-time.sleep(5)
+time.sleep(15)
 
 # Logging setup
 logging.basicConfig(
