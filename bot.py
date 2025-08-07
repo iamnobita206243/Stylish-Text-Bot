@@ -22,6 +22,6 @@ if __name__ == "__main__":
         api_hash=Config.API_HASH,
         plugins=plugins,
         workers=100,
-        **sleep_threshold=60**   # 🛠 Add this line to fix time sync issue
+        sleep_threshold=60  
     )
     app.run()
