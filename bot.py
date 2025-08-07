@@ -1,10 +1,11 @@
 import time
-time.sleep(2)
+import datetime
+print(f"Current time: {datetime.datetime.now()}")
+time.sleep(5)
 
 import pyrogram
 import logging
 import os
-
 from config import Config
 from pyrogram import Client 
 
